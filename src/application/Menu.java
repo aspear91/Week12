@@ -74,6 +74,7 @@ public class Menu {
 	}
 	
 	private void displayCharacter() throws SQLException {
+		System.out.println("Enter ID: ");
 		Character character = charactersDao.getCharacterByID(scanner.nextInt());
 		System.out.println("Name: " + character.getName() + "  Race: " + character.getRace() + "  Class: " + character.getCaste());
 	}

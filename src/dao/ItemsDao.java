@@ -8,10 +8,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-//import entity.Armor;
-//import entity.Character;
 import entity.Item;
-//import entity.Weapon;
 
 public class ItemsDao {
 
